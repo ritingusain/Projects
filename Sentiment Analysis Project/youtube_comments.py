@@ -2,7 +2,7 @@
 from googleapiclient.discovery import build
 from pytube import YouTube
 
-API_KEY = "AIzaSyB_hHVAZ1Wc_f4VbBJ6uQ5U4PwD4HxQHIY"
+API_KEY = "API_KEY"
 
 def get_video_id(url):
     try:
