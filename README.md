@@ -30,6 +30,26 @@ This is a basic Rock Paper Scissors game implemented in JavaScript. It's a simpl
 ## How to Run
 1. Open the `index.html` file in a web browser.
 
+
+---
+
+
+# Sentiment Analysis GUI Application (Python)
+
+## Introduction
+This is a graphical user interface (GUI) application implemented in Python. It allows users to analyze the sentiment of YouTube comments and text files, calculate accuracy, and visualize the sentiment distribution.
+
+## Features
+- Analyze sentiments of YouTube comments by entering the video URL.
+- Analyze sentiments of text files by uploading a file.
+- Visualize sentiment distribution as positive, negative, or neutral.
+- Calculate the accuracy of sentiment analysis based on a provided dataset.
+
+## How to Run
+1. Install the required libraries by running pip install -r (required files).txt in your terminal.
+2. Run the main.py file.
+3. Interact with the GUI to analyze sentiments and view results.
+
 ---
 
 # Weather API GUI Temperature Checker (Python)
