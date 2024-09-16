@@ -66,3 +66,38 @@ This is a graphical user interface (GUI) application implemented in Python using
 1. Install the required libraries by running `pip install requests` in your terminal.
 2. Run the `main.py` file.
 3. Enter the city name in the GUI and click the "Check Temperature" button.
+
+---
+
+# Jarvis - AI Virtual Assistant
+
+Jarvis is a Python-based virtual assistant that can perform various tasks like opening websites, playing music, fetching news, and interacting with OpenAI to handle general tasks. It uses speech recognition to listen for voice commands and responds with voice outputs using `gTTS` or `pyttsx3`.
+
+## Features
+
+- **Speech Recognition**: Recognizes commands using Google's Speech Recognition API.
+- **Text-to-Speech**: Uses `gTTS` to convert responses into speech.
+- **Web Browser Integration**: Opens Google, Facebook, YouTube, LinkedIn via voice commands.
+- **Music Library Integration**: Plays music based on predefined song links.
+- **News Fetching**: Reads the top news headlines using the NewsAPI.
+- **OpenAI Integration**: Handles more complex questions and tasks with OpenAI's API.
+
+## Requirements
+
+- Python 3.x
+- Libraries:
+  - `speech_recognition`
+  - `webbrowser`
+  - `pyttsx3`
+  - `requests`
+  - `gTTS`
+  - `pygame`
+  - `openai`
+  - `pocketsphinx` (optional, for better speech recognition)
+  
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+
